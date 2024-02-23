@@ -7,7 +7,7 @@ Before you start coding, it is important that you [set up](/docs/en/setup.md) th
 
 You can find the actual application exercise here: [Application exercise](/docs/en/application-exercise.md)
 
-Once you have completed the exercise, you must [submit](/docs/en/submit.md) your solution.
+Once you've completed the Task, you can find out how to submit by clicking [here](/docs/en/submit.md).
 
 # 🇩🇪 AEB Java Bewerberaufgabe
 Moin 👋, diese Bewerberaufgabe ist Teil des Bewerbungsprozesses für Java Softwareentwickler bei AEB. Aktuelle Stellenangebote findest Du auf [Arbeiten bei AEB](https://www.aeb.com/de/arbeiten-bei-aeb/jobs.php).  
