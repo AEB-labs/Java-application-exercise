@@ -44,7 +44,7 @@ public final class IataExchangeRateCli {
 				IATA currency exchange rates
 				
 				Select an option by pressing the numeric key and hitting 'Enter':
-				[1] Show currency rate
+				[1] Show exchange rate
 				[2] Add exchange rate
 				
 				[0] Exit""");
