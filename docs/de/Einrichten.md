@@ -17,12 +17,12 @@ Bevor Du mit dem Programmieren beginnen kannst, musst Du die Bewerberaufgabe ric
 > [!TIP]  
 > GitHub Templates ist der schnellste Weg, um das Projekt für die Programmierung vorzubereiten.
 
-| Schritte                                                                                                                                                                                                                                                                                                                   | Bild                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| <ul><li> Dafür klicke auf `Use this template` und dann auf `Create a new repository`. </li></ul>                                                                                                                                                                                                                           | ![Use this template](/docs/assets/images/template.png)              |
-| <ul><li> Wähle dann `Include all branches` aus. </li><li> Achte darauf, dass unter `Owner` Dein Benutzername steht und nicht eine Gruppe oder Organisation. </li><li> Den `Repository name` und die `Description` kannst Du frei wählen. </li><li> Wähle die Option `Private` damit Dein Repository privat ist. </li></ul> | ![Create new repository](/docs/assets/images/create-repository.png) |
-| <ul><li> Nachdem Du das private Repository erstellt hast, musst Du uns Zugriff darauf gewähren. </li><li> Dazu klickst Du auf `Settings`, dann auf `Collaborators` und wählst unter `Manage access` die Schaltfläche `Add people`. </li><li> Im Eingabefeld trägst Du die genannten E-Mail-Addressen ein. </li></ul>       | ![Access](/docs/assets/images/access.png)                           |
-| <ul><li> In deinem Repository gehe zurück zu `Code` und klicke auf den grünen `Code` Button. </li><li> Am einfachsten ist es, den Code über `HTTPS` herunterzuladen. <br /> Dazu wähle HTTPS und klicke auf das Kopiersymbol. </li></ul>                                                                                   | ![Git clone](/docs/assets/images/git-clone.png)                     |
+| Schritte                                                                                                                                                                                                                                                                                                             | Bild                                                                |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| <ul><li> Dafür klicke auf `Use this template` und dann auf `Create a new repository`. </li></ul>                                                                                                                                                                                                                     | ![Use this template](/docs/assets/images/template.png)              |
+| <ul><li> Achte darauf, dass unter `Owner` Dein Benutzername steht und nicht eine Gruppe oder Organisation. </li><li> Den `Repository name` und die `Description` kannst Du frei wählen. </li><li> Wähle die Option `Private` damit Dein Repository privat ist. </li></ul>                                            | ![Create new repository](/docs/assets/images/create-repository.png) |
+| <ul><li> Nachdem Du das private Repository erstellt hast, musst Du uns Zugriff darauf gewähren. </li><li> Dazu klickst Du auf `Settings`, dann auf `Collaborators` und wählst unter `Manage access` die Schaltfläche `Add people`. </li><li> Im Eingabefeld trägst Du die genannten E-Mail-Addressen ein. </li></ul> | ![Access](/docs/assets/images/access.png)                           |
+| <ul><li> In deinem Repository gehe zurück zu `Code` und klicke auf den grünen `Code` Button. </li><li> Am einfachsten ist es, den Code über `HTTPS` herunterzuladen. <br /> Dazu wähle HTTPS und klicke auf das Kopiersymbol. </li></ul>                                                                             | ![Git clone](/docs/assets/images/git-clone.png)                     |
 
 Nachdem Du das Projekt vorbereitet hast, gibt es noch ein paar Schritte in Git zu erledigen. Wenn Du noch nie mit Git gearbeitet hast, musst Du es zuerst [installieren](https://git-scm.com/downloads).
 
@@ -31,7 +31,7 @@ Dann öffnest Du eine Konsole (z.B. `cmd`) die Git unterstützt. Wenn Du Dir uns
 ```bash
 git clone https://github.com/[GitHub-Benutzername]/[Repository-Name].git # Hier den Link vom HTTPS einfügen
 cd [Repository-Name] # Hier den Namen von deinem Repository z.B. AEB-Bewerberaufgabe
-git switch dev # Wechselt zum Branch dev
+git checkout -b dev # Wechselt zum Branch dev
 ```
 
 <a name="clone"></a>
@@ -43,7 +43,7 @@ git switch dev # Wechselt zum Branch dev
 
 Du kannst natürlich die Bewerberaufgabe auch klonen und in Dein eigenes **privates** Repository pushen oder importieren. Dein Code muss nicht auf GitHub gehostet sein. Dir steht frei andere Anbieter zu nutzen. Du musst nur sicherstellen, dass wir Zugriff auf Deinen Code haben und dass der Code privat ist.  
 
-Bitte arbeite in dem Branch `dev`, um deine Änderungen besser vergleichen zu können.  
+Bitte arbeite in einem Branch `dev`, um deine Änderungen besser vergleichen zu können.  
 
 <a name="zip"></a>
 

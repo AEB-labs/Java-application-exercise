@@ -20,7 +20,7 @@ Before you can start programming, you need to prepare the application exercise p
 | Steps                                                                                                                                                                                                                                                                                               | Image                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | <ul><li> To do this, click `Use this template` and then click `Create a new repository`. </li></ul>                                                                                                                                                                                                 | ![Use this template](/docs/assets/images/template.png)              |
-| <ul><li> Then select `Include all branches`. </li><li> Make sure that the `Owner` is your user name, not a group or organisation. </li><li> You can choose any `Repository name` and `Description`. </li><li> Select the `Private` option to create a private repository. </li></ul>                | ![Create new repository](/docs/assets/images/create-repository.png) |
+| <ul><li> Make sure that the `Owner` is your user name, not a group or organisation. </li><li> You can choose any `Repository name` and `Description`. </li><li> Select the `Private` option to create a private repository. </li></ul>                                                              | ![Create new repository](/docs/assets/images/create-repository.png) |
 | <ul><li> Once you have created the private repository, you need to give us access to it. </li><li> To do this, click on `Settings`, then on `Collaborators`, and under `Manage access`, select the `Add people` button. </li><li> Enter the provided email addresses in the input field. </li></ul> | ![Access](/docs/assets/images/access.png)                           |
 | <ul><li>In your repository, go back to `Code` and click the green `Code` button. </li><li>The easiest way to download the code is via HTTPS. </li><li> To do this, select `HTTPS` and click the copy icon.</li></ul>                                                                                | ![Git clone](/docs/assets/images/git-clone.png)                     |
 
@@ -31,7 +31,7 @@ Then open a console (e.g. `cmd`) that supports Git. If you are unsure, run `git 
 ```bash
 git clone https://github.com/[GitHub-Benutzername]/[Repository-Name].git # Insert the link from the HTTPS here
 cd [Repository-Name] # Here is the name of your repository, e.g. AEB-application-exercise
-git switch dev # Swaps to the branch dev
+git checkout -b dev # Swaps to the branch dev
 ```
 
 <a name="clone"></a>
@@ -43,7 +43,7 @@ git switch dev # Swaps to the branch dev
 
 You can of course also clone the application exercise and push or import it into your own **private** repository. Your code does not need to be hosted on GitHub. You are free to use other providers. You just need to make sure that we have access to your code and that it is private.  
 
-Please work in the `dev` branch to better compare your changes.  
+Please work in a branch called `dev` to compare your changes better.  
 
 <a name="zip"></a>
 

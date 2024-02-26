@@ -18,7 +18,7 @@ Before your code appears on GitHub, you need to upload it using Git. To do this,
 ```bash
 git add . # Marks all files for upload
 git commit -m "Add files" # You can also enter a different message here
-git push # Upload files to the repository
+git push -u origin dev # Upload files to the repository
 ```
 
 After that, you just need to make a few settings in the repository on GitHub to submit your code.

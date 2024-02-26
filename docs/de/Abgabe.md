@@ -18,7 +18,7 @@ Bevor dein Code auf GitHub erscheint, muss er über Git hochgeladen werden. Öff
 ```bash
 git add . # Markiert alle Dateien für den Upload
 git commit -m "Add files" # Du kannst hier auch eine andere Nachricht eingeben
-git push # Lädt Dateien in das Repository hoch
+git push -u origin dev # Lädt Dateien in das Repository hoch
 ```
 
 Danach musst Du nur noch einige Einstellungen im Repository auf GitHub vornehmen, um Deinen Code einzureichen.
