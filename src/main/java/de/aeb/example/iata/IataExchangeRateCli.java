@@ -6,12 +6,7 @@ import java.io.InputStreamReader;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public final class IataExchangeRateCli {
-	
-	private final Logger logger = LoggerFactory.getLogger(IataExchangeRateCli.class);
 	
 	public String getUserInput() {
 		BufferedReader consoleInput = new BufferedReader(new InputStreamReader(System.in));
@@ -21,7 +16,7 @@ public final class IataExchangeRateCli {
 		try {
 			userInput = consoleInput.readLine();
 		} catch (IOException e) {
-			logger.error(e.getMessage(), e);
+			sendError(e.getMessage());
 		}
 		
 		return userInput;
@@ -40,7 +35,6 @@ public final class IataExchangeRateCli {
 	
 	public IataExchangeRateCli showMenu() {
 		sendMessage("""
-				
 				IATA currency exchange rates
 				
 				Select an option by pressing the numeric key and hitting 'Enter':
@@ -52,12 +46,12 @@ public final class IataExchangeRateCli {
 	}
 	
 	public IataExchangeRateCli sendMessage(String message) {
-		logger.info(message);
+		System.out.println(message);
 		return this;
 	}
 	
 	public IataExchangeRateCli sendError(String message) {
-		logger.error(message);
+		System.out.println((char) 27 + "[31m" + message + (char) 27 + "[0m");
 		return this;
 	}
 	
