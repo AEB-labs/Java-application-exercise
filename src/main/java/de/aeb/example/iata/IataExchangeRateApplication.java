@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public final class IataExchangeRateApplication {
 	
-	private static final IataExchangeRateCli cli = new IataExchangeRateCli();
+	private final IataExchangeRateCli cli = new IataExchangeRateCli();
 	
 	public IataExchangeRateApplication() {
 		importIataExchangeRates();
