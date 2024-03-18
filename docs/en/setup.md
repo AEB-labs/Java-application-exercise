@@ -3,7 +3,7 @@
 > [!CAUTION]  
 > Please do not create a pull request on the main project or fork it! Your code won't be private!  
 
-The application exercise is configured for Eclipses, IntelliJ and VS Code IDEs, but you are free to use other development environments (or none at all).  
+The application exercise is configured for Eclipse, IntelliJ and VS Code IDEs, but you are free to use other development environments (or none at all).  
 Before you can start programming, you need to prepare the application exercise properly. There are three ways to do this:  
 
 - [GitHub template](#template)
@@ -41,7 +41,7 @@ git checkout -b dev # Swaps to the branch dev
 > [!IMPORTANT]
 > This option is more suitable for experts, as you will need to be familiar with Git and the source host.
 
-You can of course also clone the application exercise and push or import it into your own **private** repository. Your code does not need to be hosted on GitHub. You are free to use other providers. You just need to make sure that we have access to your code and that it is private.  
+Also you can of course clone the application exercise and push or import it into your own **private** repository. Your code does not need to be hosted on GitHub. You are free to use other providers. You just need to make sure that we have access to your code and that it is private.  
 
 Please work in a branch called `dev` to compare your changes better.  
 
@@ -51,4 +51,4 @@ Please work in a branch called `dev` to compare your changes better.
 
 | Steps                                                                                                                                                                                                                                                                                                                                                          | Image                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| <ul><li> If you don't want to create a GitHub account, you can download the application exercise as a ZIP file from GitHub. </li><li> To do this, click on `Code` and then on `Download ZIP`. </li><li> You can then work on the exercise without Git, e.g. versioning. <br /> However, we recommend that you use Git versioning, at least locally. </li></ul> | ![Download ZIP](/docs/assets/images/download-zip.png) |
+| <ul><li> If you don't want to create a GitHub account, you can download the application exercise as a ZIP file from GitHub. </li><li> To do this, click on `Code` and then on `Download ZIP`. </li><li> You can then work on the exercise without Git or versioning. <br /> However, we recommend that you use Git versioning, at least locally. </li></ul> | ![Download ZIP](/docs/assets/images/download-zip.png) |

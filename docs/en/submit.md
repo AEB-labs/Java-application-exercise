@@ -35,10 +35,10 @@ To make sure your pull request doesn't get lost, please email us a link to the p
 
 ## Git clone / import
 
-Create a pull request from `dev` to `main` in your repository and add us as a reviewer (for repositories on GitHub, see the [GitHub template](#template)). If you have forgotten to work on `dev`, send us a link with the comparison (compare / diff). Alternatively, you can send us your project as a ZIP file.
+Create a pull request from `dev` to `main` in your repository and add us as reviewer (for repositories on GitHub, see the [GitHub template](#template)). If you have forgotten to work on `dev`, send us a link with the comparison (compare / diff). Alternatively, you can send us your project as a ZIP file.
 
 <a name="zip"></a>
 
 ## ZIP export
 
-If you downloaded the code as a ZIP file, you can put your source code back into a ZIP file and email it to us.
+If you have downloaded the code as a ZIP file, you can put your source code back into a ZIP file and email it to us.

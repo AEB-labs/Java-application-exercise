@@ -66,7 +66,7 @@ Der entsprechende Umrechnungskurs wird aus den eingelesenen Daten ermittelt.
 
 Neue Währungskurse können für einen bestimmten Zeitraum eingegeben werden. Der eingegebene Kurs muss zu den Daten hinzugefügt werden. Es darf keine Überschneidung geben.  
 
-Wenn der neue Währungskurs in Zeiträume bestehender Kurse fällt, müssen bestehenden Kurse gelöscht werden, wenn sie vollständig vom neuen Kurs komplet abgedeckt werden. Fällt ein alter Kurs nur teilweise in den Zeitraum des neuen Kurses fällt, muss das Anfangs- oder Enddatum des alten Kurses so angepasst werden, dass sich die Kurse nicht überschneiden, sondern der alte Kurs direkt an den neuen angrenzt.  
+Wenn der neue Währungskurs in Zeiträume bestehender Kurse fällt, müssen bestehende Kurse gelöscht werden, wenn sie vollständig vom neuen Kurs komplett abgedeckt werden. Fällt ein alter Kurs nur teilweise in den Zeitraum des neuen Kurses, muss das Anfangs- oder Enddatum des alten Kurses so angepasst werden, dass sich die Kurse nicht überschneiden, sondern der alte Kurs direkt an den neuen angrenzt.  
 
 Alle Varianten sind so abzubilden, dass der neu eingegebene Kurs immer Vorrang vor den bestehenden Kursen hat.  
 

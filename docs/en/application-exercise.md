@@ -36,7 +36,7 @@ The above entry therefore means:
 The console application contains some functions with todos that you need to implement.  
 
 - [ ] Import the exchange rates  
-- [ ] Output data for a exchange rate 
+- [ ] Output data for an exchange rate 
 - [ ] Enter a new exchange rate  
 - [ ] (optional) automatic tests  
 
@@ -54,7 +54,7 @@ The exchange rates have to be imported in an appropriate data structure, where t
 
 <a name="output"></a>
 
-#### Output data for a exchange rate
+#### Output data for an exchange rate
 
 The console application provides the user's input values for the query. The function should display the exchange rate for a currency on a given date (in the form `1 XYZ equals to xx.xxx Euros`) or indicate that no exchange rate exists.  
 
@@ -66,7 +66,7 @@ The appropriate exchange rate is determined from the data read in.
 
 New exchange rates can be entered for a given period. The entered exchange rate must be added to the data. There must be no overlap.  
 
-If the new exchange rate falls within the periods of existing rates, the existing rates must be deleted if they are completely covered by the new rate. If an old rate falls only partially falls within the period of the new rate, the start or end date of the old rate must be adjusted so that the rates do not overlap, i.e. the old rate is directly adjacent to the new rate.  
+If the new exchange rate falls within the periods of existing rates, the existing rates must be deleted if they are completely covered by the new rate. If an old rate falls only partially within the period of the new rate, the start or end date of the old rate must be adjusted so that the rates do not overlap, but the old rate is directly adjacent to the new rate.  
 
 All variants must be mapped in such a way that the newly entered rate always takes precedence over the existing rates.  
 

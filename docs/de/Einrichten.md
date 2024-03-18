@@ -3,7 +3,7 @@
 > [!CAUTION]  
 > Bitte erstelle keinen Pull Request auf das Hauptprojekt oder einen Fork! Dein Code ist dann **nicht** mehr privat!
 
-Die Bewerberaufgabe ist für die IDEs Eclipses, IntelliJ und VS Code eingerichtet, aber es steht Dir frei, andere Entwicklungsumgebungen (oder gar keine) zu verwenden.  
+Die Bewerberaufgabe ist für die IDEs Eclipse, IntelliJ und VS Code eingerichtet, aber es steht Dir frei, andere Entwicklungsumgebungen (oder gar keine) zu verwenden.  
 Bevor Du mit dem Programmieren beginnen kannst, musst Du die Bewerberaufgabe richtig vorbereiten. Dazu hast Du drei Möglichkeiten:
 
 - [GitHub Template](#template)
