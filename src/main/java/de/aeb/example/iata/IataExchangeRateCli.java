@@ -3,13 +3,14 @@ package de.aeb.example.iata;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public final class IataExchangeRateCli {
 	
 	public String getUserInput() {
-		BufferedReader consoleInput = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader consoleInput = new BufferedReader(new InputStreamReader(System.in, StandardCharsets.UTF_8));
 		
 		String userInput = null;
 		
@@ -53,17 +54,5 @@ public final class IataExchangeRateCli {
 	public IataExchangeRateCli sendError(String message) {
 		System.out.println((char) 27 + "[31m" + message + (char) 27 + "[0m");
 		return this;
-	}
-	
-	public boolean isExitRequest(String userInput) {
-		return "0".equals(userInput);
-	}
-	
-	public boolean isShowCurrencyRate(String userInput) {
-		return "1".equals(userInput);
-	}
-	
-	public boolean isEnterCurrencyRate(String userInput) {
-		return "2".equals(userInput);
 	}
 }

@@ -16,17 +16,20 @@ public final class IataExchangeRateApplication {
 		while (true) {
 			String userInput = cli.getUserInput();
 			
-			if (cli.isExitRequest(userInput)) {
-				cli.sendMessage("Goodbye!");
-				return;
+			switch (userInput) {
+				case "0" -> {
+					cli.sendMessage("Goodbye!");
+					return;
+				}
+				case "1" -> showIataExchangeRate();
+				case "2" -> enterIataExchangeRate();
+				default ->
+					cli.sendError("Wrong input. Please try again.").showMenu();
 			}
-			
-			makeSelection(userInput);
 		}
 	}
 	
 	private void importIataExchangeRates() {
-		
 		// TODO: Import IATA currency exchange rates
 		cli.sendError("TODO: Import the IATA currency exchange rates");
 	}
@@ -47,15 +50,5 @@ public final class IataExchangeRateApplication {
 		
 		// TODO: Enter a new exchange rate for a given period (from, to) and currencyIsoCode
 		cli.sendError("TODO: Enter a new exchange rate for a given period (from, to) and currencyIsoCode");
-	}
-	
-	private void makeSelection(String userInput) {
-		if (cli.isShowCurrencyRate(userInput)) {
-			showIataExchangeRate();
-		} else if (cli.isEnterCurrencyRate(userInput)) {
-			enterIataExchangeRate();
-		} else {
-			cli.sendError("Wrong input. Please try again.").showMenu();
-		}
 	}
 }
